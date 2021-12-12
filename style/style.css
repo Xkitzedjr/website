@@ -1,0 +1,97 @@
+body {
+    font-family: "Helvetica Neue", helvetica;
+    color: white;
+    background-color: black;
+    background-image: linear-gradient(to bottom, #333, #000);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h2, h3 {
+    color: #525252;
+}
+
+h1 {
+    text-align: center;
+}
+
+.blogbox h2, h3 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 5px;
+}
+
+.linklist ul {
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+}
+
+.gif {
+    color: lightgrey;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+.navbar {
+    width: center;
+    align-content: center;
+    text-align: center;
+    word-spacing: 50px;
+    padding: 10px;
+    border: 5px solid rgba(82,82,82,50);
+    margin: 0;
+}
+
+.blogpost {
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius:5px;
+}
+
+.blogbox {
+    float: left;
+    width: 50%;
+    text-align: center;
+    align-content: center;
+    margin: auto;
+    padding: 2px;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+footer {
+    float: bottom;
+    margin: 20px;
+    text-align: center;
+}
+
+.clr {
+    clear: both;
+}
+
+a:link {
+    color: rgb(255, 189, 222);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(255, 189, 222);
+}
+
+a:hover {
+    color: rgb(255, 36, 255);
+}
+
+.boxwrap {
+    -moz-box-shadow: 0 0 10px #000000;
+    box-shadow: 0 0 10px #000000;
+    padding:1em;
+}
